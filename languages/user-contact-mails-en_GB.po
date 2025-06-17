@@ -1,0 +1,355 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: User Contact Mails 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/user-contact-mails\n"
+"Last-Translator: basteyy <sebastian@xzit.online>\n"
+"Language-Team: British English <en_GB@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-06-17T21:01:44+00:00\n"
+"PO-Revision-Date: 2025-06-18 12:00+0100\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: user-contact-mails\n"
+
+#. Plugin Name of the plugin
+#: index.php
+#: includes/admin-settings.php:18
+#: includes/admin-settings.php:19
+#: includes/admin-settings.php:399
+msgid "User Contact Mails"
+msgstr "User Contact Mails"
+
+#. Plugin URI of the plugin
+#: index.php
+msgid "https://github.com/basteyy/user-contact-mails"
+msgstr "https://github.com/basteyy/user-contact-mails"
+
+#. Description of the plugin
+#: index.php
+msgid "Allow users to store additional contact emails and provide admins a management interface."
+msgstr "Allow users to store additional contact emails and provide admins a management interface."
+
+#. Author of the plugin
+#: index.php
+msgid "basteyy"
+msgstr "basteyy"
+
+#. Author URI of the plugin
+#: index.php
+msgid "https://github.com/basteyy"
+msgstr "https://github.com/basteyy"
+
+#: includes/admin-settings.php:29
+msgid "General Settings"
+msgstr "General Settings"
+
+#: includes/admin-settings.php:47
+msgid "Enable Plugin?"
+msgstr "Enable Plugin?"
+
+#: includes/admin-settings.php:72
+msgid "Enable Logging?"
+msgstr "Enable Logging?"
+
+#: includes/admin-settings.php:97
+msgid "Maximum Emails per User"
+msgstr "Maximum Emails per User"
+
+#: includes/admin-settings.php:122
+msgid "Require at least one email?"
+msgstr "Require at least one email?"
+
+#: includes/admin-settings.php:147
+msgid "User can choose primary email?"
+msgstr "User can choose primary email?"
+
+#: includes/admin-settings.php:154
+msgid "Enable this to allow users to choose their primary email address."
+msgstr "Enable this to allow users to choose their primary email address."
+
+#: includes/admin-settings.php:173
+msgid "Set primary email as user_email in wp_users?"
+msgstr "Set primary email as user_email in wp_users?"
+
+#: includes/admin-settings.php:198
+msgid "Validate emails?"
+msgstr "Validate emails?"
+
+#: includes/admin-settings.php:205
+msgid "Enable this to validate email addresses. This validates only the structure, not the existing of any domain/address."
+msgstr "Enable this to validate email addresses. This validates only the structure, not the existence of any domain/address."
+
+#: includes/admin-settings.php:228
+msgid "Roles that can manage settings"
+msgstr "Roles that can manage settings"
+
+#: includes/admin-settings.php:242
+msgid "Select the roles that can manage the plugin settings."
+msgstr "Select the roles that can manage the plugin settings."
+
+#: includes/admin-settings.php:265
+msgid "Roles that can view emails"
+msgstr "Roles that can view emails"
+
+#: includes/admin-settings.php:279
+msgid "Select the roles that can view the emails."
+msgstr "Select the roles that can view the emails."
+
+#: includes/admin-settings.php:302
+msgid "Roles that can view logs"
+msgstr "Roles that can view logs"
+
+#: includes/admin-settings.php:316
+msgid "Select the roles that can view the logs."
+msgstr "Select the roles that can view the logs."
+
+#: includes/admin-settings.php:335
+msgid "Enable Labels for Emails?"
+msgstr "Enable Labels for Emails?"
+
+#: includes/admin-settings.php:342
+msgid "Enable this to allow users to set labels for their emails."
+msgstr "Enable this to allow users to set labels for their emails."
+
+#: includes/admin-settings.php:361
+msgid "Require Labels for Emails?"
+msgstr "Require Labels for Emails?"
+
+#: includes/admin-settings.php:368
+msgid "Enable this to require labels for emails. This only works if labels are enabled."
+msgstr "Enable this to require labels for emails. This only works if labels are enabled."
+
+#: includes/admin-settings.php:393
+msgid "Log file has been cleared."
+msgstr "Log file has been cleared."
+
+#: includes/admin-settings.php:404
+msgid "Manage user contact emails and settings."
+msgstr "Manage user contact emails and settings."
+
+#: includes/admin-settings.php:423
+msgid "Show List"
+msgstr "Show List"
+
+#: includes/admin-settings.php:431
+msgid "Settings"
+msgstr "Settings"
+
+#: includes/admin-settings.php:439
+msgid "View Logs"
+msgstr "View Logs"
+
+#: includes/admin-settings.php:460
+msgid "You do not have permission to manage these settings."
+msgstr "You do not have permission to manage these settings."
+
+#: includes/functions.php:187
+msgid "You are not allowed to do this."
+msgstr "You are not allowed to do this."
+
+#: includes/functions.php:487
+#: includes/html/view-log-template.php:22
+msgid "You are not allowed to view this page."
+msgstr "You are not allowed to view this page."
+
+#: includes/functions.php:526
+msgid "Invalid nonce."
+msgstr "Invalid nonce."
+
+#: includes/functions.php:541
+#: includes/functions.php:658
+msgid "Invalid export format."
+msgstr "Invalid export format."
+
+#: includes/functions.php:556
+msgid "No users selected for export."
+msgstr "No users selected for export."
+
+#: includes/functions.php:660
+msgid "Unknown export format."
+msgstr "Unknown export format."
+
+#: includes/functions.php:710
+#: includes/user-manage-emails.php:23
+msgid "Plugin is not enabled."
+msgstr "Plugin is not enabled."
+
+#: includes/html/activation-popup-template.php:19
+msgid "User Contact Mails Activated!"
+msgstr "User Contact Mails Activated!"
+
+#: includes/html/activation-popup-template.php:20
+msgid "Thank you for activating and trusting our plugin."
+msgstr "Thank you for activating and trusting our plugin."
+
+#: includes/html/activation-popup-template.php:21
+msgid "With this plugin, users can add additional contact information via their profile page."
+msgstr "With this plugin, users can add additional contact information via their profile page."
+
+#: includes/html/activation-popup-template.php:22
+msgid "Administration and export are available under Tools > User Contact Mails."
+msgstr "Administration and export are available under Tools > User Contact Mails."
+
+#: includes/html/activation-popup-template.php:23
+msgid "If you find any errors, please report them to me (basteyy)."
+msgstr "If you find any errors, please report them to me (basteyy)."
+
+#: includes/html/activation-popup-template.php:33
+msgid "Go to Tools » User Contact Mails"
+msgstr "Go to Tools » User Contact Mails"
+
+#: includes/html/activation-popup-template.php:40
+msgid "Close"
+msgstr "Close"
+
+#: includes/html/user-profile-template.php:16
+msgid "User is missing"
+msgstr "User is missing"
+
+#: includes/html/user-profile-template.php:28
+msgid "Contact Emails"
+msgstr "Contact Emails"
+
+#: includes/html/user-profile-template.php:34
+msgid "No additional emails added yet. Use the button to add one."
+msgstr "No additional emails added yet. Use the button to add one."
+
+#: includes/html/user-profile-template.php:41
+msgid "Name your address (for example recipients name or branch name)."
+msgstr "Name your address (for example recipient’s name or branch name)."
+
+#: includes/html/user-profile-template.php:48
+msgid "Dont forget to submit the form, in order to save changes."
+msgstr "Don’t forget to submit the form to save changes."
+
+#: includes/html/user-profile-template.php:74
+msgid "Invalid email"
+msgstr "Invalid email"
+
+#: includes/html/user-profile-template.php:80
+#: includes/html/user-profile-template.php:118
+msgid "Label (e.g. Work)"
+msgstr "Label (e.g. Work)"
+
+#: includes/html/user-profile-template.php:88
+#: includes/html/user-profile-template.php:125
+msgid "Primary Email"
+msgstr "Primary Email"
+
+#: includes/html/user-profile-template.php:95
+#: includes/html/user-profile-template.php:129
+msgid "Remove"
+msgstr "Remove"
+
+#: includes/html/user-profile-template.php:108
+msgid "Add another email"
+msgstr "Add another email"
+
+#: includes/html/user-profile-template.php:216
+msgid "Please fix highlighted fields."
+msgstr "Please fix highlighted fields."
+
+#: includes/html/view-list-template.php:17
+msgid "Export users"
+msgstr "Export users"
+
+#: includes/html/view-list-template.php:20
+msgid "Export all users and there contact-data or a selection of the users. "
+msgstr "Export all users and their contact data or a selection of users."
+
+#: includes/html/view-list-template.php:29
+msgid "User"
+msgstr "User"
+
+#: includes/html/view-list-template.php:30
+msgid "Primary User E-Mail"
+msgstr "Primary User E-mail"
+
+#: includes/html/view-list-template.php:31
+msgid "Additional Contacts"
+msgstr "Additional Contacts"
+
+#: includes/html/view-list-template.php:60
+msgid "All"
+msgstr "All"
+
+#: includes/html/view-list-template.php:61
+msgid "Invert"
+msgstr "Invert"
+
+#: includes/html/view-list-template.php:66
+msgid "Include primary email"
+msgstr "Include primary email"
+
+#: includes/html/view-list-template.php:69
+msgid "Include labels"
+msgstr "Include labels"
+
+#: includes/html/view-list-template.php:72
+msgid "Export as"
+msgstr "Export as"
+
+#: includes/html/view-list-template.php:73
+msgid "HTML"
+msgstr "HTML"
+
+#: includes/html/view-list-template.php:74
+msgid "JSON"
+msgstr "JSON"
+
+#: includes/html/view-list-template.php:75
+msgid "CSV"
+msgstr "CSV"
+
+#: includes/html/view-list-template.php:76
+msgid "TEXT"
+msgstr "TEXT"
+
+#: includes/html/view-list-template.php:79
+msgid "Export"
+msgstr "Export"
+
+#: includes/html/view-list-template.php:118
+msgid "Please select an export format."
+msgstr "Please select an export format."
+
+#: includes/html/view-list-template.php:125
+msgid "Please select at least one user to export."
+msgstr "Please select at least one user to export."
+
+#: includes/html/view-log-template.php:27
+msgid "Logfile"
+msgstr "Logfile"
+
+#: includes/html/view-log-template.php:30
+msgid "This log file contains all actions performed by the plugin, including errors and warnings. It is useful for debugging and monitoring purposes."
+msgstr "This log file contains all actions performed by the plugin, including errors and warnings. It is useful for debugging and monitoring purposes."
+
+#: includes/html/view-log-template.php:36
+msgid "Clear Log File"
+msgstr "Clear Log File"
+
+#: includes/html/view-log-template.php:54
+msgid "Timestamp"
+msgstr "Timestamp"
+
+#: includes/html/view-log-template.php:55
+msgid "Message"
+msgstr "Message"
+
+#: includes/user-manage-emails.php:27
+msgid "You are not allowed to edit the selected user."
+msgstr "You are not allowed to edit the selected user."
+
+#: includes/user-manage-emails.php:35
+msgid "Security check failed."
+msgstr "Security check failed."
+
+#: includes/user-manage-emails.php:65
+msgid "Please provide labels for all emails."
+msgstr "Please provide labels for all emails."
+
+#: includes/user-manage-emails.php:75
+msgid "Invalid primary email selection."
+msgstr "Invalid primary email selection."
